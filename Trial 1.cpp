@@ -5,7 +5,7 @@ char str[80];
 int main(){
 cout<<"Welcome Lol 500birr is not precious for me u know Im university student"<<endl;
 cout<<"What is Your Name? "<<endl;
-gets(str);
+cin>>str;
 for(int i=1; i<=10; i++){
 cout<<"Enter subject "<< i<<" marks: ";
 cin>>marks;
